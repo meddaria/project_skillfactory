@@ -1,0 +1,65 @@
+@font-face {
+    src: url('fonts/PT_Serif/PTSerif-Bold.ttf');
+    font-family: "Roboto Bold";
+}
+@font-face {
+    src: url('fonts/PT_Serif/PTSerif-Regular.ttf');
+    font-family: "PT Serif Regular";
+}
+@font-face {
+    src: url('fonts/PT_Serif/PTSerif-Italic.ttf');
+    font-family: "PT Serif Italic";
+}
+@font-face {
+    src: url('fonts/Roboto/Roboto-Italic.ttf');
+    font-family: "Roboto Italic";
+}
+@font-face {
+    src: url('fonts/Roboto/Roboto-Bold.ttf');
+    font-family: "Roboto Bold";
+}
+@font-face {
+    src: url('fonts/Roboto/Roboto-Regular.ttf');
+    font-family: "Roboto Regular";
+}
+
+h2 { font-family: "PT Serif Regular";}
+h1 { font-family: "PT Serif Regular";}
+title { font-family: "PT Serif Bold";}
+p { font-family: "Roboto Regular";}
+li{ font-family: "Roboto Regular";}
+a { font-family: "Roboto Regular";}
+span { font-family: "Roboto Regular";}
+
+
+h2 {
+    margin: 0;
+    box-shadow: 5px 5px 10p grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip;
+}
+.info {
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    box-shadow: 5px 5px 10px grey;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+} 
+.item {
+    margin-right: 20px;
+}
